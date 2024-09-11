@@ -1,0 +1,98 @@
+/* Styles for the dropdown and product list */
+.product-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .product-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-list label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .product-list select {
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    appearance: none;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .product-list select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .product-card button:active {
+    transform: scale(1);
+  }
+  

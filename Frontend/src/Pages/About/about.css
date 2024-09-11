@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-content {
+    position: relative;
+    z-index: 2;
+}
+
+.home-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+.about-image img, .contact-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url('/src/assets/images/about2.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+}
+
+.about h1 {
+    text-align: center;
+    color: #fff; 
+}
+
+.about-section {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.about-section h2 {
+    color: #fff; 
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.about-section p {
+    line-height: 1.6; 
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-section li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}

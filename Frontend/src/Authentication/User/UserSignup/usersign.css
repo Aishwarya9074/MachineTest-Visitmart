@@ -1,0 +1,73 @@
+.user-signup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/src/assets/images/signup.jpg'); /* Ensure this is the correct path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-card {
+    background: rgba(37, 35, 35, 0.514); /* White background with slight transparency */
+    padding: 20px; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 500px; /* Increased card width */
+    width: 100%;
+    text-align: center;
+    height: auto; /* Auto height to fit content */
+    max-height: 600px; /* Fixed max-height to prevent overflow */
+    overflow: hidden; /* Hide overflow if content exceeds max-height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem; /* Slightly reduced font size */
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
